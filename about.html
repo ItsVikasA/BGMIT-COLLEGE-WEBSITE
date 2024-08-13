@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/0308e04451.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <title>University Of Technology</title>
+</head>
+
+<body>
+
+    <!----Header---->
+    <section class="sub-header">
+        <nav>
+            <a href="#"><img src="logo.jpeg" alt="Logo"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <div class="about-box">
+            <h1>About Us</h1>
+        </div>
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>University Of Technology</h1>
+                <p>BGMIT Mudhol College is committed to providing exceptional education and fostering holistic development. Located in Mudhol, we offer a range of undergraduate and postgraduate programs designed to prepare students for success. Our experienced faculty, modern facilities, and emphasis on practical experience create an enriching learning environment. We are dedicated to nurturing talent and empowering students to achieve their academic and professional goals.</p>
+
+                <a href="" class="hero-btn-red">EXPLORE NOW</a>
+            </div>
+
+            <div class="about-col">
+                <img src="about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!----Footer---->
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>BGMIT Mudhol College is a premier educational institution dedicated to providing quality education and fostering holistic development in its students. Located in the heart of Mudhol, our college has established itself as a center of academic excellence, offering a wide range of undergraduate and postgraduate programs across various disciplines. 
+
+            At BGMIT, we believe in nurturing the intellectual, social, and personal growth of our students through a balanced approach that combines rigorous academics with extracurricular activities. Our experienced faculty members are committed to mentoring students and equipping them with the knowledge and skills needed to succeed in an ever-changing global landscape.
+            
+            Our campus is equipped with modern facilities, including state-of-the-art laboratories, a well-stocked library, and expansive sports grounds, ensuring that our students have the resources they need to thrive both inside and outside the classroom. We also prioritize industry connections and practical experience, providing students with opportunities to engage in internships, workshops, and research projects.
+            
+            At BGMIT Mudhol, we are dedicated to creating a supportive and inclusive environment where students are encouraged to explore their passions, develop their talents, and prepare for a bright future. Join us at BGMIT, where education meets excellence, and dreams become reality.</p><br>At BGMIT Mudhol College, we are dedicated to excellence in education and fostering a supportive learning environment. Our commitment to providing top-notch academic programs and practical experiences ensures that students are well-prepared to meet the challenges of the future. With a focus on innovation, integrity, and student success, we strive to create an educational experience that empowers and inspires every individual.</p>
+
+        <div class="icons">
+            <a href="https://www.facebook.com/bgmit.mudhol.35"><i class="fab fa-facebook"></i></a>
+            <a href="https://github.com/ItsVikasA"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/Vikas028"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/hands_on_coding_028"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>Made with <i class="fa fa-heart" aria-hidden="true"></i> By <a href="#">VIKAS</a></p>
+    </section>
+
+
+    <!---Javascript for toggole menu--->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>
